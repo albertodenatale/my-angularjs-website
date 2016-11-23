@@ -1,0 +1,31 @@
+﻿CACHE MANIFEST
+#version 14
+Static/images/linkedin.jpg
+Static/css/animations.css
+Static/css/carrer_path.css
+Static/css/header.css
+Static/css/fonts/oswald-stenbab/Oswald-Stencbab.ttf
+Static/css/general_layout.css
+Static/javascript/lib/angular.min.js.map
+Static/javascript/lib/angular.js
+Static/javascript/lib/angular-route.js
+Static/javascript/lib/angular-animate.js
+Static/javascript/mainApplication.js
+Content/FrontEnd
+Content/CPlusPlus
+Content/Java
+Content/Master
+Content/Integration
+Content/DotNet
+Content/Home
+Content/Contacts
+Content/Index
+/FrontEnd
+/CPlusPlus
+/Java
+/Master
+/Integration
+/DotNet
+/Home
+/Contacts
+/Index

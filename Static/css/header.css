@@ -1,0 +1,293 @@
+header{
+	height:60px;
+	padding-top:10px;
+	width:100%;
+	background:#fff;
+	position:relative;
+	z-index:2;
+}
+
+header h1{
+	color:#990033;
+	font-family:firstFontFamiliy;
+	margin-bottom:10px;
+	margin-left:10px;
+}
+
+header nav {
+	margin-top: 6px;
+	position:absolute;
+	right:10px;
+	top:15px;
+	font-size:0.7em;
+}
+
+.bottom {
+	padding-left:10px;
+	padding-top:10px;
+	height:120px;
+	width:100%;
+	background:#666633;
+	margin-bottom:30px;
+}
+.bottom  h2{
+	color:#fff;
+	margin-bottom:10px;
+}
+
+header a{
+	color:#990033;
+	font-size:1.5em;
+	z-index:1;
+}
+
+.bottom  p{
+	color:#fff;
+}
+
+.bottom p, header a {
+	font-family:firstFontFamiliy;
+}
+
+
+
+
+
+
+header.howthiswebsiteworks{
+	background:#D1D2D5;
+}
+header.howthiswebsiteworks h1{
+	color:#E14B3B;
+	font-family:firstFontFamiliy;
+}
+.howthiswebsiteworks .bottom {
+	background:#1C8B98;
+}
+.howthiswebsiteworks .bottom  h2{
+	color:#fff;
+}
+header.howthiswebsiteworks a{
+	color:#E14B3B;
+	font-size:1.5em;
+}
+.howthiswebsiteworks .bottom  p{
+	color:#fff;
+}
+.howthiswebsiteworks .bottom p, .howthiswebsiteworks header a {
+	font-family:firstFontFamiliy;
+}
+
+.howthiswebsiteworks .carrer_step{
+	border:solid 10px #FCC059;
+	background:#D1D2D5;
+}
+
+
+.howthiswebsiteworks .carrer_step_text{
+	color:#E14B3B;
+}
+
+
+.howthiswebsiteworks .carrer_step:hover{
+	background:#1C8B98;
+	border:solid 10px #1C8B98;
+}
+
+.howthiswebsiteworks .carrer_step:hover .carrer_step_text {
+	color:white;
+}
+
+
+.howthiswebsiteworks h2{
+	color:#E14B3B;
+	font-family:firstFontFamiliy;
+}
+
+
+
+header.contacts{
+	background:#6F8A79;
+}
+header.contacts h1{
+	color:#E4D5A3;
+	font-family:firstFontFamiliy;
+}
+.contacts .bottom {
+	background:#E5E6D8;
+	text-align:center;
+	padding-left:0;
+}
+.contacts .bottom  h2{
+	color:#C86368;
+	margin-top:32px;
+}
+header.contacts a{
+	color:#E4D5A3;
+	font-size:1.5em;
+}
+.contacts .bottom  p{
+	color:#C86368;
+}
+.contacts .bottom p, .contacts header a {
+	font-family:firstFontFamiliy;
+}
+
+.contacts .carrer_step{
+	border:solid 10px #6F8A79;
+	background:#E4D5A3;
+}
+.contacts section.contacts {
+	text-align:center;
+}
+
+.contacts .carrer_step_text{
+	color:#5F192C;
+}
+
+
+.contacts .carrer_step:hover{
+	background:#6F8A79;
+	border:solid 10px #6F8A79;
+}
+
+.contacts .carrer_step:hover .carrer_step_text {
+	color:#E4D5A3;
+}
+
+
+.contacts h2{
+	color:#5F192C;
+	font-family:firstFontFamiliy;
+}
+.contacts h3 {
+	font-family:firstFontFamiliy;
+	color:#5F192C;
+}
+
+
+
+
+
+
+
+.carrerstep  .certifications  {
+	float:right;
+	width: 50%;
+	height:auto;
+	clear: right;
+}
+
+.carrerstep  .certifications ul  {
+	border-left:3px solid #990033;
+	padding-left:4%;
+}
+
+.carrerstep h1.ng-scope {
+	display:none;
+}
+
+.carrerstep  .projects {
+	float:left;
+	margin-left:1%;
+	height:auto;
+}
+
+.projects   > h2 {
+	float:left;
+	width:50%;
+}
+
+.carrerstep  h2 {
+	text-align:left;
+	margin-bottom: 1%;
+}
+
+.carrerstep  .institutions  {
+	float:right;
+	width: 50%;
+	height:auto;
+}
+
+.carrerstep  .institutions ul  {
+	border-left:3px solid #990033;
+	padding-left:4%;
+}
+
+.carrerstep  ul  {
+	list-style:none;
+	padding:0;
+}
+
+.carrerstep  ul li ul {
+	list-style:initial;
+	margin-left: 10%;
+}
+
+.carrerstep  ul li ul li {
+	margin:1% 0 1% 0;
+}
+
+.carrerstep  ul li ul li ul {
+	list-style:initial;
+	margin-left: 10%;
+}
+
+.projects  > ul >  li  {
+	width:50%;
+	min-height: 80px;
+}
+
+.carrerstep  li.left  {
+	float: left;
+	clear: left;
+}
+
+.carrerstep  li.right  {
+	float:right;
+	clear: right;
+}
+
+.carrerstep > ul  {
+	margin-top:4%;
+}
+
+.project {
+	width:90%;
+}
+
+.projects  + .projects {
+	margin-top:2%;
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+	margin: 3% 0 3% 0;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+@media (max-width: 797px){
+	.institutions {
+		display:none;
+	}
+	
+	.certifications {
+		display:none;
+	}
+	.projects > h2 {
+		width:100%;
+	}
+	.projects > ul > li {
+		width:100%;
+	}
+}

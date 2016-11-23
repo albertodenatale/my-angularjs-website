@@ -1,0 +1,33 @@
+﻿<!doctype html>
+
+<html manifest="application.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Alberto De Natale</title>
+    <link rel="stylesheet" href="~/Static/css/general_layout.css">
+    <link rel="stylesheet" href="~/Static/css/header.css">
+    <link rel="stylesheet" href="~/Static/css/carrer_path.css">
+    <link rel="stylesheet" media="(min-width: 800px)" href="~/Static/css/animations.css">
+
+    <script type="text/javascript" src="~/Static/javascript/lib/angular.js"></script>
+    <script type="text/javascript" src="~/Static/javascript/lib/angular-route.js"></script>
+    <script type="text/javascript" src="~/Static/javascript/lib/angular-animate.js"></script>
+    <script type="text/javascript" src="~/Static/javascript/mainApplication.js"></script>
+</head>
+
+<body ng-app="mainApplication">
+    <header ng-controller="HeaderController">
+        <h1>Alberto De Natale</h1>
+        <nav>
+            <a href="/Home">Home</a> |
+            <a href="/Static/content/ADenataleCV.pdf" target="_self">CV</a>|
+            <a href="/Static/content/ADenataleOnePageCV.pdf" target="_self">One page CV</a>|
+            <a href="/HowThisWebSiteWorks">How This Web Site Works</a>
+            <a href="/Contacts">Contacts</a>
+        </nav>
+    </header>
+    <div class="page" ng-class="pageClass" ng-view></div>
+</body>
+</html>
